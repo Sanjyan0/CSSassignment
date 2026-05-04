@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+height: 100vh;
+}
+
+/* Main container */
+.container {
+width: 50vw;
+height: 80vh;
+
+margin: 10vh 25vw;
+
+text-align: center;
+background-color: #f5f5f5;
+
+/* Reduced padding to avoid scroll */
+padding: 10px;
+
+border-radius: 10px;
+}
+
+/* Image */
+.container img {
+width: 100%;
+height: 100%;   /* reduced to prevent overflow */
+object-fit: cover;
+border-radius: 10px;
+}
+
+/* Button */
+button {
+margin-top: 15px;
+padding: 10px 20px;
+
+border: none;
+border-radius: 25px;
+
+font-size: 18px;
+color: white;
+
+background: linear-gradient(to right, #ff7e5f, #feb47b);
+
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.8;
+}
